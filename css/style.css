@@ -1,0 +1,526 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.a {
+    color: inherit;
+    text-decoration: none;
+    text-decoration-color: none;
+} 
+
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(../img/background.png);
+    background-size: cover;
+    height: 660px;
+    position: relative;
+}
+.jumbotron .container {
+    z-index: 1;
+    position: relative;
+    
+}
+.jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color:rgba(0,0,0,0.7);
+    bottom: 0;
+}
+.jumbotron .judul {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+}
+.judul h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+.judul h1 span {
+    font-weight: 500;
+    color: springgreen;
+}
+.judul h2 {
+    margin-bottom: 20px;
+}
+.judul h2 span {
+    color: springgreen;
+}
+.judul h4 {
+    margin-top: 20px;
+}
+.judul h4 span {
+    color: springgreen;
+    font-weight: bold;
+}
+
+
+/* Leads */
+.lead {
+    background-color: #ffeaea;
+    margin-top: -32px;
+}
+.judul-lead {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    line-height: 50px;
+    padding-top: 30px;
+}
+.lead h4 {
+    color: black;
+}
+.lead h3 span {
+    color: red;
+}
+.lead p {
+    word-spacing: 10px;
+    text-align: justify;
+    line-height: 35px;
+    margin-bottom: 30px;
+    margin-top: 35px;
+}
+.lead h4 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+.lead h4 span {
+    color: green;
+}
+.img-lead {
+    width: 350px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    float: left;
+}
+.clear {
+    clear: left;
+}
+
+/* offer */
+.offer {
+    background-image: url(../img/offer.jpg);
+    margin-top: -8px; 
+    padding-bottom: 20px;
+}
+.offer h3 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    z-index: 1;
+    position: relative;
+    color: royalblue;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+}
+.col-4 {
+    width: 24%;    
+    box-sizing: border-box;
+    padding-left: 70px;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+}
+.col-4 h5 {
+    padding-top: 20px;
+    font-weight: bold;
+}
+.col-4 p {
+    margin-bottom: 50px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.icon {
+    width: 120px;
+    height: 120px;
+    border: 3px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 92px;
+    font-size: 70px;
+    margin: 0 auto;
+    color: deeppink;
+}
+.row {
+    padding-bottom: 10px;
+}
+.col-md {
+    padding-bottom: 20px
+}
+.col-md:hover {
+    transform: scale(1.03);
+}
+.card {
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.7);
+}
+.container p {
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.container p span {
+    font-weight: bold;
+    color: red;
+}
+.judul-offer2 {
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+.container h5 {
+    text-align: center;
+}
+.container h6 {
+    text-align: center;
+}
+.container .bold {
+    color: black;
+}
+.container h5 .bold {
+    font-weight: bold;
+}
+.container p .bold {
+    font-weight: bold;
+}
+.offer3 {
+    margin-bottom: 30px;
+}
+
+/* Pricing */
+.pricing {
+    background-color: #ffeaea;
+}
+.pricing h3 {
+    text-align: center;
+    padding-top: 50px;
+    color: royalblue;
+}
+.price3 {
+    color: red;
+    font-size: 16px;
+}
+.price4 {
+    color: green;
+    font-size: 30px;
+}
+.price5 {
+    color: darkblue;
+    font-size: 20px;
+}
+.price6 {
+    font-size: 20px;
+}
+.price7 {
+    font-size: 20px;
+    color: green;
+}
+.btn {
+    width: 300px;
+    margin-left: 400px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    font-size: 24px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+}
+.btn:hover {
+    transform: scale(1.03);
+}
+
+/* testi */
+.testi {
+    background-image: url(../img/offer.jpg);
+    margin-top: 0;
+}
+.testi h3 {
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    color: royalblue;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+}
+.testi img {
+    width: 600px;
+    margin-left: 270px;
+    margin-bottom: 40px;
+}
+
+
+ /* whatsapp */
+ .datainput{position:relative;margin:5px 0 20px}.datainput p{font-size:12px;background:#eee;display:inline-block;padding:5px 15px;border-radius:.5rem}.whatsapp-form textarea{min-height:120px}.datainput select{padding:12px 0;color:#555;font-size:14px;width:100%;border:0;border-bottom:1px solid #ddd;outline:none;background:#fff}.datainput input,.datainput textarea{font-size:15px;padding:15px 0;display:block;width:100%;border:none;border-bottom:1px solid #ddd}.datainput input:focus,.datainput textarea:focus{outline:none}.datainput label{color:#999;font-size:14px;font-weight:400;position:absolute;pointer-events:none;left:0;top:18px;transition:.2s ease all}.datainput input:focus~label,.datainput input:valid~label,.datainput textarea:focus~label,.datainput textarea:valid~label{top:-10px;font-size:14px;color:#21a51f}#notif-license span{font-size:40px}#notif-license{display:none;position:fixed}.bar{position:relative;display:block;width:100%}.bar:before,.bar:after{content:'';height:2px;width:0;bottom:1px;position:absolute;background:#21a51f;transition:.2s ease all}.bar:before{left:50%}.bar:after{right:50%}.datainput input:focus~.bar:before,.datainput input:focus~.bar:after,.datainput textarea:focus~.bar:before,.datainput textarea:focus~.bar:after{width:50%}.indigox{background:#3f51b5}.orangex{background:#ff9800}.pinkx{background:#e91e63}.bluex{background:#2196F3}.purplex{background:#9c27b0}.redx{background:#F44336}.greenx{background:#4CAF50}.highlight{position:absolute;height:50%;width:100px;top:25%;left:0;pointer-events:none;opacity:.5}.datainput input:focus~.highlight,.datainput textarea:focus~.highlight{animation:inputHighlighter .3s ease}.datainput input:focus~label,.datainput input:valid~label,.datainput textarea:focus~label,.datainput textarea:valid~label{top:-10px;font-size:13px;color:#21a51f}
+
+ /* Default Whatsapp Form CSS by www.idblanter.com */
+ form.whatsapp-form {
+     box-shadow: 0 1px 6px rgba(32,33,36,.28);
+     border-radius: .5rem;
+     padding: 20px;
+     box-sizing: border-box;
+     color: #444;
+     font-size: 14px;
+     line-height: 1.5;
+ }
+  .whatsapp-form a.send_form {
+     color: #fff;
+     background: #21a51f;
+     text-decoration: none;
+     display: inline-block;
+     padding: 10px 25px;
+     border-radius: .3rem;
+     font-weight: 700;
+     letter-spacing: .5px;
+     font-size: 15px;
+ }
+ #text-info span {
+     display: block;
+     padding: 10px 15px;
+     text-align: center;
+     font-weight: 700;
+     margin: 15px 0;
+     border-radius: .5rem;
+ }
+ #text-info span.yes {
+     background: #c6ffc5;
+     color: #0ea904;
+ }
+ #text-info span.no {
+     background: #ffc5c5;
+     color: #ce0404;
+ }
+ .whatsapp-form{
+   width:100%;
+   max-width:700px;
+   margin:0 auto;
+   box-sizing:border-box;
+ }
+
+ /* garansi */
+ .garansi {
+     background-color: #ffeaea;
+ }
+.garansi-img {
+    width: 300px;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.garansi-item {
+    margin-left: 220px;
+    margin-top: 50px;
+    color: royalblue;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+}
+.list-garansi {
+    width: 550px;
+    margin-right: 50px;
+    margin-top: 20px;
+    line-height: 35px;
+}
+.list-garansi li {
+    font-size: 20px;
+    word-spacing: 5px;
+    margin: 15px;
+}
+.list-garansi span {
+    font-weight: bold;
+    color: green;
+}
+.deliv-item {
+    text-align: center;
+    color: royalblue;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+}
+.delivery {
+    width: 600px;
+    margin-left: 230px;
+    margin-bottom: 25px;
+}
+.icon-deliv {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+/* kontak */
+.kontak {
+    text-align: center;
+    color: #666;
+    position: relative;
+    border: 1px solid;
+}
+.kontak h3 {
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.boxmedsos {
+    margin-bottom: -70px;
+}
+.box-2 {
+    display: inline-block;
+    margin: 10px;
+}
+.box-2::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.box-2 h5, h4 {
+    color: #fff;
+}
+.icon-contact {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px
+}
+.icon-contact:hover {
+    color: darkorange;
+}
+.call {
+    margin-left: 0;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.call:hover {
+    color: darkorange;
+}
+.email {
+    color: #fff;
+    margin-left: 0;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.email:hover {
+    color: darkorange;
+}
+.alamat {
+    width: 400px;
+    color: #fff;
+    margin-left: 0;
+    margin-top: 0px;
+    font-size: 18px;
+}
+.col-wa {
+    font-size: 70px;
+}
+.col-alamat {
+    font-size: 70px;
+}
+.col-email {
+    font-size: 70px;
+}
+.alamat:hover {
+    color: darkorange;
+}
+.medsos {
+    margin: 10px;
+}
+.box-2 a {
+    color: #fff;
+}
+
+/* footer */
+
+.footer p {
+    color: darkgray;
+}
+.footer p span {
+    color: darkorange;
+}
+
+@media (max-width:768px) {
+    .jumbotron .judul {
+        margin-top: 0;
+    } 
+    .judul h1 {
+        margin-top: -20px;
+    }
+    .judul h2 {
+        font-size: 18px;
+        margin-bottom: 30px;
+        line-height: 35px;
+    }
+    .judul h4 {
+        font-size: 18px;
+        margin-top: 30px;
+        line-height: 35px;
+    }
+    .img-lead {
+        float: none;
+        width: 375px;
+    }
+    .lead p {
+        margin-top: -10px;
+    }
+    .isi-lead {
+        line-height: 35px;
+    }
+    .col-4 {
+        width: 70%;
+        float: none;
+        padding: 0px;
+        margin-top: 0;
+        margin-left: 40px;
+    }
+    .icon {
+        margin-left: 100px;
+    }
+    .col-4 h5 {
+        width: 320px;
+    }
+    .col-4 p {
+        width: 300px;
+    }
+    .price2 {
+        line-height: 30px;
+    }
+    .price6 {
+        padding-top: 10px;
+    }
+    .btn {
+        margin-left: 45px;
+    }
+    .modal-dialog {
+        width: 400px;
+    }
+    .testi img {
+        width: 350px;
+        margin-left: 0;
+        padding-left: 30px;
+    }
+    .garansi-img {
+        margin-left: 50px;
+    }
+    .garansi-item {
+        margin-left: 150px;
+        margin-top: -5px;
+    }
+    .list-garansi {
+        font-size: 16px;
+        margin-left: 20px;
+        width: 380px;
+        margin-bottom: 20px;
+    }
+    .delivery {
+        width: 350px;
+        margin-left: 10px;
+    }
+    .icon-deliv {
+        width: 70px;
+    }
+    .alamat {
+        width: 300px;
+        margin-left: 0;
+    }
+    .call {
+        margin-left: 0px;
+    }
+    .email {
+        margin-left: 0;
+    }
+    .col-alamat, .col-email {
+        margin-top: -50px
+    }
+    .kontak h3 {
+        margin-top: 10px;
+    }
+}
