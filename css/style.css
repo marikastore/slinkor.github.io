@@ -7,8 +7,14 @@
     text-decoration: none;
     text-decoration-color: none;
 } 
-
-
+.container {
+    margin: 0 auto;
+}
+.container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
 /* Jumbotron */
 .jumbotron {
     background-image: url(../img/background.png);
@@ -118,9 +124,8 @@
     text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
 }
 .col-4 {
-    width: 24%;    
+    width: 25%;    
     box-sizing: border-box;
-    padding-left: 70px;
     float: left;
     text-align: center;
     margin-top: 20px;
@@ -139,7 +144,7 @@
     border: 3px solid;
     border-radius: 50%;
     text-align: center;
-    line-height: 92px;
+    line-height: 94px;
     font-size: 70px;
     margin: 0 auto;
     color: deeppink;
@@ -189,6 +194,7 @@
 /* Pricing */
 .pricing {
     background-color: #ffeaea;
+    padding-bottom: 30px;
 }
 .pricing h3 {
     text-align: center;
@@ -215,10 +221,11 @@
     color: green;
 }
 .btn {
-    width: 300px;
-    margin-left: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 30px;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
     font-size: 24px;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
 }
@@ -229,7 +236,7 @@
 /* testi */
 .testi {
     background-image: url(../img/offer.jpg);
-    margin-top: 0;
+    padding-bottom: 30px;
 }
 .testi h3 {
     text-align: center;
@@ -295,24 +302,24 @@
  /* garansi */
  .garansi {
      background-color: #ffeaea;
+     padding-bottom: 30px;
  }
 .garansi-img {
-    width: 300px;
+    width: 70%;
     margin-left: 150px;
     margin-top: 50px;
     margin-bottom: 20px;
 }
 .garansi-item {
-    margin-left: 220px;
+    text-align: center;
     margin-top: 50px;
     color: royalblue;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
 }
 .list-garansi {
-    width: 550px;
-    margin-right: 50px;
     margin-top: 20px;
     line-height: 35px;
+    text-align: justify;
 }
 .list-garansi li {
     font-size: 20px;
@@ -335,7 +342,8 @@
 }
 .icon-deliv {
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* kontak */
@@ -417,6 +425,9 @@
 .box-2 a {
     color: #fff;
 }
+.col-medsos {
+    margin-top: 50px;
+}
 
 /* footer */
 
@@ -433,7 +444,7 @@
     } 
     .judul h1 {
         margin-top: -20px;
-        font-size: 42px;
+        font-size: 40px;
     }
     .judul h2 {
         font-size: 18px;
@@ -454,34 +465,31 @@
     }
     .lead p {
         margin-top: -10px;
-    }
+    }    
     .isi-lead {
         line-height: 35px;
     }
     .col-4 {
-        width: 70%;
         float: none;
-        padding: 0px;
-        margin-top: 0;
-        margin-left: 4%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .icon {
-        margin-left: 100px;
+        margin-left: -20px;
     }
-    .col-4 h5 {
-        width: 320px;
+    .ekonomis {
+        margin-left: -10px;
     }
     .col-4 p {
         width: 300px;
+        text-align: center;
+        margin-left: -120px;
     }
     .price2 {
         line-height: 30px;
     }
     .price6 {
         padding-top: 10px;
-    }
-    .btn {
-        margin-left: 5%;
     }
     .modal-dialog {
         width: 340px;
@@ -496,15 +504,17 @@
         margin-left: 0;
     }
     .garansi-img {
-        margin-left: 5%;
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     .garansi-item {
-        margin-left: 35%;
         margin-top: -5px;
     }
     .list-garansi {
         text-align: justify;
-        width: 320px;
+        width: auto;
         margin-left: 10px;
         margin-bottom: 20px;
     }
@@ -512,11 +522,14 @@
         font-size: medium;
     }
     .delivery {
-        width: 350px;
-        margin-left: -5%;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
     .icon-deliv {
-        width: 70px;
+        width: 70%;        
+        margin-left: auto;
+        margin-right: auto;
     }
     .alamat {
         width: 300px;
