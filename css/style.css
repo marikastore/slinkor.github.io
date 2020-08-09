@@ -37,7 +37,6 @@
     text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
 }
 .judul h1 {
-    font-size: 50px;
     font-weight: 400;
 }
 .judul h1 span {
@@ -433,7 +432,6 @@
     } 
     .judul h1 {
         margin-top: -20px;
-        font-size: 45px;
     }
     .judul h2 {
         font-size: 18px;
@@ -444,6 +442,9 @@
         font-size: 18px;
         margin-top: 30px;
         line-height: 35px;
+    }
+    .judul-lead {
+        font-size: larger;
     }
     .img-lead {
         float: none;
@@ -460,7 +461,7 @@
         float: none;
         padding: 0px;
         margin-top: 0;
-        margin-left: 10%;
+        margin-left: 4%;
     }
     .icon {
         margin-left: 100px;
@@ -478,31 +479,39 @@
         padding-top: 10px;
     }
     .btn {
-        margin-left: 12%;
+        margin-left: 5%;
     }
     .modal-dialog {
-        width: 390px;
+        width: 340px;
+    }
+    .modal-title {
+        font-size: small;
+    }
+    #wa_textarea {
+        margin-top: -20px;
     }
     .testi img {
         margin-left: 0;
     }
     .garansi-img {
-        margin-left: 12%;
+        margin-left: 5%;
     }
     .garansi-item {
-        margin-left: 40%;
+        margin-left: 35%;
         margin-top: -5px;
     }
     .list-garansi {
         text-align: justify;
-        font-size: 14px;
-        width: 370px;
+        width: 320px;
         margin-left: 10px;
         margin-bottom: 20px;
     }
+    .list-garansi li {
+        font-size: medium;
+    }
     .delivery {
         width: 350px;
-        margin-left: 10px;
+        margin-left: -5%;
     }
     .icon-deliv {
         width: 70px;
@@ -522,5 +531,8 @@
     }
     .kontak h3 {
         margin-top: 10px;
+    }
+    .footer p {
+        font-size: small;
     }
 }
